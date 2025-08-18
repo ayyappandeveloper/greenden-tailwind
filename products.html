@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Tailwind -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="bg-green-100 p-4 flex items-center justify-between shadow-xl sticky top-0 z-10">
+        <h1 class="text-3xl font-bold">Greenden</h1>
+
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="w-6 h-6 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+        <ul class="flex gap-5 hidden md:flex ">
+            <li class="hover:underline ">
+                <a href="index.html">Home</a>
+            </li>
+            <li class="hover:underline ">
+                <a href="products.html">Product</a>
+            </li>
+            <li class="hover:underline ">
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- Products page -->
+    <section class="text-center mt-7">
+        <h1 class="text-2xl font-bold">Our Products</h1>
+        <input type="text" placeholder="Search for a Product" class="border border-black mt-2 w-4/5 h-12 p-2">
+        <div class="grid grid-cols-2 mt-8 gap-6  md:grid-cols-4">
+            <div>
+                <img src="./images/best seller (1).jpg" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1> Money Plant</h1>
+                <p>$ 50</p>
+            </div>
+            <div>
+                <img src="./images/best seller (2).jpg" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1>Holy basil</h1>
+                <p>$ 60</p>
+            </div>
+            <div>
+                <img src="./images/best seller (3).jpg" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1>Ficus religiosa</h1>
+                <p>$ 50</p>
+            </div>
+            <div>
+                <img src="./images/best seller (4).jpg" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1>cactus</h1>
+                <p>$ 50</p>
+            </div>
+            <div>
+                <img src="./images/image 2 (1).jpg" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1>fern</h1>
+                <p>$ 50</p>
+            </div>
+            <div>
+                <img src="./images/image 2 (2).jpg" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1>new Plant</h1>
+                <p>$ 50</p>
+            </div>
+            <div>
+                <img src="./images/image 2 (3).jpg" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1> Deco Plant</h1>
+                <p>$ 50</p>
+            </div>
+            <div>
+                <img src="./images/image 2 (4).jpg" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1> fernsPlant</h1>
+                <p>$ 50</p>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="bg-green-200 p-3 flex flex-col gap-3 mt-3">
+        <h1 class="font-bold text-3xl">Greenden</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, omnis.</p>
+        <p>&copy;2021 Greenday.com</p>
+    </footer>
+</body>
+
+</html>
