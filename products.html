@@ -14,8 +14,8 @@
     <nav class="bg-green-100 p-4 flex items-center justify-between shadow-xl sticky top-0 z-10">
         <h1 class="text-3xl font-bold">Greenden</h1>
 
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-            class="w-6 h-6 md:hidden">
+        <svg id="menuicons" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="w-6 h-6 md:hidden">
             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
         </svg>
         <ul class="flex gap-5 hidden md:flex ">
@@ -30,11 +30,29 @@
             </li>
         </ul>
     </nav>
+    <!-- side navbar -->
+    <section id="sidenav" class="bg-green-100 fixed z-20 top-0" style="width: 50%; height: 100vh; right: -50%; ">
+        <div class="text-right ">
+            <p id="nav-close" class="p-6 cursor-pointer">X</p>
+        </div>
+        <ul class="flex flex-col items-center gap-10   md:flex ">
+            <li class="hover:underline ">
+                <a href="index.html">Home</a>
+            </li>
+            <li class="hover:underline ">
+                <a href="products.html">Product</a>
+            </li>
+            <li class="hover:underline ">
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </section>
     <!-- Products page -->
     <section class="text-center mt-7">
         <h1 class="text-2xl font-bold">Our Products</h1>
-        <input type="text" placeholder="Search for a Product" class="border border-black mt-2 w-4/5 h-12 p-2">
-        <div class="grid grid-cols-2 mt-8 gap-6  md:grid-cols-4">
+        <input id="search" type="text" placeholder="Search for a Product"
+            class="border border-black mt-2 w-4/5 h-12 p-2">
+        <div class="product-container" class="grid grid-cols-2 mt-8 gap-6  md:grid-cols-4">
             <div>
                 <img src="./images/best seller (1).jpg" class="inline hover:shadow-xl transform hover:-translate-y-2">
                 <h1> Money Plant</h1>
@@ -83,6 +101,10 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, omnis.</p>
         <p>&copy;2021 Greenday.com</p>
     </footer>
+    <script src="product.js"></script>
+    <script>
+
+    </script>
 </body>
 
 </html>

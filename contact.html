@@ -14,8 +14,8 @@
     <nav class="bg-green-100 p-4 flex items-center justify-between shadow-xl sticky top-0 z-10">
         <h1 class="text-3xl font-bold">Greenden</h1>
 
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-            class="w-6 h-6 md:hidden">
+        <svg id="menuicons" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="w-6 h-6 md:hidden">
             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
         </svg>
         <ul class="flex gap-5 hidden md:flex ">
@@ -30,6 +30,23 @@
             </li>
         </ul>
     </nav>
+    <!-- side navbar -->
+    <section id="sidenav" class="bg-green-100 fixed z-20 top-0" style="width: 50%; height: 100vh; right: -50%; ">
+        <div class="text-right ">
+            <p id="nav-close" class="p-6 cursor-pointer">X</p>
+        </div>
+        <ul class="flex flex-col items-center gap-10   md:flex ">
+            <li class="hover:underline ">
+                <a href="index.html">Home</a>
+            </li>
+            <li class="hover:underline ">
+                <a href="products.html">Product</a>
+            </li>
+            <li class="hover:underline ">
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </section>
     <!-- Contact -->
     <section class="bg-white dark:bg-gray-900">
         <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
@@ -73,6 +90,7 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, omnis.</p>
         <p>&copy;2021 Greenday.com</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
