@@ -12,7 +12,7 @@ navclose.addEventListener("click",function(){
 
 // Search box
  var search = document.getElementById("search")
-        var products = document.querySelector("#product-container")
+        var products = document.getElementById("product-container")
         var productlist = products.querySelectorAll("div")
 
         search.addEventListener("keyup", function (event) {
