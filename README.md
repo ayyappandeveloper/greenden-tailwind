@@ -2,6 +2,7 @@
 
 Greenden is a fully responsive webpage built as a **learning project** using **HTML, Tailwind CSS, and JavaScript**.  
 It includes a product search feature and is designed to work seamlessly on desktop, tablet, and mobile devices.
+📌This is a learning project. Contributions, suggestions, and feedback are welcome!
 
 ---
 
@@ -27,7 +28,7 @@ It includes a product search feature and is designed to work seamlessly on deskt
 
 ---
 
-🌐 Live Demo:
+🌐 Live Demo: https://ayyappandeveloper.github.io/greenden-tailwind/
 
-This is a learning project. Contributions, suggestions, and feedback are welcome!
+
 
